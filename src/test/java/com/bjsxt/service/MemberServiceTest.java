@@ -89,6 +89,7 @@ public class MemberServiceTest {
 		users.setAge(28);
 		service.editUser(users);
 		System.out.println("ok");
+		System.out.println("kokokoko");
 	}
 
 }
