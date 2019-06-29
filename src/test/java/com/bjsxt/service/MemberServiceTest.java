@@ -79,6 +79,7 @@ public class MemberServiceTest {
 		doReturn(users).when(usersMapper).selectUserById(1);
 		Users ac=service.findUserById(1);
 		assertThat(ac, is(users));
+		System.out.println("uuuuuuuuuuu");
 	}
 	@Test
 	public void test_editUser() {
