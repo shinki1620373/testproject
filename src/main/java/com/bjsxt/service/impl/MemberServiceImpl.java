@@ -44,6 +44,15 @@ if(true) {
 		
 
 if(true) {
+	
+	if(true) {
+	System.out.println("bbbbbb:");
+}
+
+if(true) {
+	System.out.println("aaaaaaaaaaaa:");
+}
+
 	System.out.println("aaaaaaaaaaaa:");
 }
 
@@ -62,16 +71,28 @@ if(true) {
 
 	@Override
 	public List<Users> findUserAll() {
+		
+			if(true) {
+	System.out.println("bbbbbb:");
+}
 		return this.usersMapper.selectUsersAll();
 	}
 
 	@Override
 	public Users findUserById(Integer id) {
+		
+			if(true) {
+	System.out.println("bbbbbb:");
+}
 		return this.usersMapper.selectUserById(id);
 	}
 
 	@Override
 	public void editUser(Users users) {
+		
+			if(true) {
+	System.out.println("bbbbbb:");
+}
 		 usersMapper.editUser(users);
 
 	}
