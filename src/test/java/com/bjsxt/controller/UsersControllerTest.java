@@ -56,6 +56,7 @@ public class UsersControllerTest {
 	    mockMvc.perform(get("/users/findUserAll"))
 	        .andExpect(status().isOk())
 	        .andExpect(view().name("showUsers"));
+	    System.out.println("dddddddddd");
 	}
 
 }
