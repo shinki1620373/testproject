@@ -59,6 +59,7 @@ public class MemberServiceTest {
 
 		List<Users> acList=service.getUser(users);
 		assertThat(acList,is(expectUsersList));
+		System.out.println("gugugugugg");
 
 	}
 	@Test
