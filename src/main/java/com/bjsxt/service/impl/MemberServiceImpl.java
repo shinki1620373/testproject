@@ -33,6 +33,16 @@ public class MemberServiceImpl implements MemberService {
 		}
 
 
+if(true) {
+	System.out.println("aaaaaaaaaaaa:");
+}
+
+
+
+if(true) {
+	System.out.println("aaaaaaaaaaaa:");
+}
+
 
 		List<Users> list = usersMapper.selectUserByIdName(users.getId(), users.getName());
 
